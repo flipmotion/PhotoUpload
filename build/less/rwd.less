@@ -4,18 +4,141 @@
 }
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
-	
+	.block-3 .offset-width-btn,
+	.block-2 .offset-width-btn {
+		    max-width: 310px;
+	}
+	.checkbox, .radio {
+		padding-left: 25px;
+	}
+	.addition p {
+		padding-right: 30px;
+	}
 }
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-	
+	.choice-type {
+		padding: 10px;
+	}
+	.btn-file-upload {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.addition p {
+		padding: 0;
+	}
+	.block-3 .offset-width-btn,
+	.block-2 .offset-width-btn {
+		    max-width: 238px;
+	}
+	.order-form {
+		padding: 10px;
+	}
+	.block-3 .paymants>div,
+	.block-2 .paymants>div {
+		padding: 2px;
+		img {
+			width: 100%;
+		}
+	}
 }
 
 /* Landscape phones and portrait tablets */
 @media (min-width: 480px) and (max-width: 767px) {
-	
+	.header {
+		padding: 10px 0;
+		text-align: center;
+		.text-right {
+			text-align: center !important;
+		}
+	}
+	.block-1--description {
+		font-size: 26px;
+		padding: 25px 20px 20px 20px;
+	}
+	.block-1--logo{
+		margin-bottom: -20px;
+	}
+	.block-3 .order-inner .no-offset,
+	.block-2 .order-inner .no-offset {
+		flex-direction: column;
+	}
+	.radio {
+		padding-left: 20px;
+	}
+	.block-3 .offset-width-btn,
+	.block-2 .offset-width-btn {
+		max-width: 100%;
+	}
+	.photo-upload-container.when-no-photo {
+		padding: 50px 0;
+	}
 }
 
 @media (min-width:0px) and (max-width: 479px) {
-	
+	.btn-file-upload>span {
+		font-size: 18px;
+	}
+	.block-2 .paymants img,
+	.block-3 .paymants img
+	 {
+		width: 100%;
+	}
+	.order-form,
+	.choice-type {
+		padding: 10px;
+	}
+	.block-2 .img-size,
+	.block-3 .img-size
+	 {
+		width: 75px;
+		padding: 5px 0;
+	}
+	.block-2 table,
+	.block-3 table
+	 {
+		p {
+			font-size: 14px;
+		}
+	}
+	.block-3 .img-size p:nth-child(2),
+	.block-3 .img-size p:nth-child(1) {
+		font-size: 14px;
+	}
+	.block-3 .table td {
+		padding: 2px;
+	}
+	.header {
+		padding: 10px 0;
+		text-align: center;
+		.text-right {
+			text-align: center !important;
+		}
+	}
+	.block-1--description {
+		font-size: 18px;
+		padding: 25px 40px 20px;
+	}
+	.block-1--logo{
+		margin-bottom: -20px;
+	}
+	.block-1--payments {
+		background: #fff;
+		padding: 15px 50px;
+		display: table;
+	}
+	.block-3 .order-inner .no-offset,
+	.block-2 .order-inner .no-offset {
+		flex-direction: column;
+	}
+	.radio {
+		padding-left: 20px;
+	}
+	.block-3 .offset-width-btn,
+	.block-2 .offset-width-btn {
+		max-width: 100%;
+	}
+	.photo-upload-container.when-no-photo {
+		padding: 50px 0;
+	}
 }

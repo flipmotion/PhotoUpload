@@ -1,4 +1,6 @@
 .header {
+	.op;
+	font-weight: 400;
 	.bg-red;
 	&.no-height-effect {
 		position: absolute;
@@ -13,5 +15,21 @@
 	}
 	a {
 		color: #fff;
+		vertical-align: middle;
+		display: inline-block;
+		span {
+			display: inline-block;
+			vertical-align: middle;
+		}
+		&:hover,&:focus {
+			color: #ffd4d4;
+			text-decoration: none;
+			.my-icon--phone {
+				background-position: bottom center;
+			}
+			.my-icon--map {
+				background-position: bottom center;
+			}
+		}
 	}
 }
