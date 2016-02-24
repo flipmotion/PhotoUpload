@@ -70,6 +70,7 @@
 	box-shadow: none;
 	border: 2px solid #d6d6d6;
 	height: 38px;
+	.csl;
 	&:focus {
 		border-color: #929292;
 		box-shadow: none;
@@ -79,14 +80,15 @@
 	.acc;
 }
 label {
-	.op;
+	.csl;
 	font-size: 16px;
+	font-weight: 300;
 }
 .order-form {
 	padding: 30px;
 }
 .addition {
-	.op;
+	.csl;
 	color: #777777;
 	font-size: 12px;
 	p {
@@ -98,6 +100,20 @@ label {
 		&:hover,&:focus {
 			text-decoration: none;
 			border-color: transparent;
+		}
+	}
+	.all-done {
+		font-size: 16px;
+		color: #000;
+		span:nth-child(2) {
+			color:@red;
+			font-size: 24px;
+			.acc;
+		}
+		span:nth-child(3) {
+			color:@red;
+			font-size: 24px;
+			.acc;
 		}
 	}
 }
